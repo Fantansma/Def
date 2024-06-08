@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 950px;
+    height: 170px;
+    margin: 0px auto;
+}
+
+.logo{
+    width: 17%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.Titulo{
+    position: relative;
+    left: 350px;
+    bottom: 120px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F49539;
+}
+
+nav{
+    width: 950px;
+    height: 40px;
+    background-color: #7CC72C;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration:none;
+    color: darkred;
+}
+
+a:hover{
+    color: indigo;
+}
+
+li{
+    list-style: none;
+    margin: 13px;
+}
+
+main{
+    width: 950px;
+    height: 500px;
+    background-color: #BDBDBD;
+    margin: 0px auto;
+}
+
+section{
+    width:550px ;
+    height:461px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+
+.piano{
+    width: 30%;
+   margin-left: 160px;
+   margin-top: 20px;
+}
+
+aside{
+    width: 313px;
+    height: 461px;
+    background-color:#ACCA8C ;
+    float: right;
+    margin-right:20px ;
+    margin-top: 10px;      
+}
+
+section h3{
+    margin-bottom: 5px;
+}
+h2{
+    color: #F49539;
+    margin-bottom: 5px;
+}
+aside h3{
+    color: #F49539;
+    border-bottom:1px solid  #F49539;
+    margin-bottom: 5px;
+}
+
+aside p{
+    border-bottom: dotted;
+}
+
+footer{
+    width: 950px;
+    height:50px ;
+    background-color: #666666;
+    margin: 0px auto;
+}
+h5{
+    font-size: 18px;
+    position: relative;
+    left: 750px;
+    top: 15px;
+}
