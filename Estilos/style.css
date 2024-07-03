@@ -1,0 +1,128 @@
+/*Barra de naveagacion*/
+.navbar{
+    padding: 2rem;
+    
+    
+}
+
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+  font-size: 30px;
+
+  
+}
+
+.nav-link {
+    color: brown;
+    position: relative;
+    left: 486px;
+}
+
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+
+/*Cabecera*/
+
+body{
+    background: url(../Imagenes/dico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.container{
+    width: 9000px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 12px;
+    font-family: fantasy;
+}
+
+img{
+    width: 95px;
+    position: relative;
+    bottom: 54px;
+}
+
+/*categorias*/
+
+.categorias-recientes{
+    padding: 40px;
+}
+.categoria-clara {
+    color:red;
+;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: cursive;
+}
+
+.texto-negro{
+    color:aquamarine;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.section-descrippcion{
+    font-size: 1.2rem;
+    color:skyblue;
+}
+
+.categorias-recientes img{
+    height: 100%;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+}
+.categorias-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+/*Pie de pagina*/
+footer{
+    min-height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 350px;
+    
+}
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-top:20px ;
+}
+.iconos-redes-sociales{
+    width: 200px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+}
+
+
+
+
+
+
