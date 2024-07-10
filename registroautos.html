@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Autos</title>
+    <link rel="icon" href="Imagenes/carro-deportivo.ico">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin-top: 15px;
+    }
+    body{
+      background: url(../Imagenes/city-1283801_1280.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+   
+    h1{
+        text-align: center;
+        font-family: fantasy;
+        color: slateblue;
+    }
+
+    img{
+        width: 5%;
+        position:absolute;
+        top: 10px;
+        right: 520px;
+    }
+
+    form{
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    input{
+        margin: 30px;
+    }
+
+    label{
+        color:deeppink;
+        font-size: 20px;
+        font-family:monospace;
+    }
+    h3{
+        font-size: 30px;
+        color:darkred;
+    }
+</style>
+<body>
+    <header>
+        <h1>Registro de Autos</h1>
+        <img src="../Imagenes/coche-electrico.png" alt="Coche">
+    </header>
+     
+    <form action="#" >
+        <h3>Datos del Auto</h3>
+        <label for="Propietario">Propietario:</label>
+        <input id="Propietario" type="text" size="40" required placeholder="Nombre del Propietario" autofocus>
+        <br> <br>
+        <label for="">Tipo de Auto:</label>
+        <select name="Tipos" id="Vehiculos">
+            <option value="">Automovil</option>
+            <option value="">Minivan</option>
+            <option value="">Crossover</option>
+            <option value="">Coupe</option>
+            <option value="">Convertible</option>
+        </select>
+        <br> <br>
+        <label for="Color">Color:</label>
+        <input  id="Color" type="text" size="30" required placeholder="Nombre del Auto">
+        <br><br>
+        <label for="modelo">Modelo:</label>
+        <input id="modelo" type="text" size="30" placeholder="Modelo del Auto" required>
+        <br><br>
+        <label for="precio">Precio:</label>
+        <input id="precio" type="text" size="30" placeholder="Precio del Auto" required>
+        <br><br>
+        <input id="registrar" type="submit" value="Registrar">
+        <input id="reset" type="reset" value="Limpiar">
+    </form>
+   
+
+</body>
+</html>

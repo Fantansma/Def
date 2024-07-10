@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Matriculas</title>
+    <link rel="icon" href="../Imagenes/graduado.ico">
+</head>
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background: url(../Imagenes/literature-3324024_1280.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    header{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: darkkhaki;
+    }
+
+    form{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    input{
+        margin: 30px;
+    }
+
+    label{
+        color: crimson;
+        font-size: 20px;
+        font-family: fantasy;
+    }
+
+    h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+</style>
+<body>
+    <header>
+        <h1>Registro de matricula de estudiantes del IESTP Chocope</h1>
+    </header>
+     
+    <form action="#" >
+        <h3>Datos del Estudiante</h3>
+        <label for="dni">Dni:</label>
+        <input id="dni" type="text" size="40" required placeholder="Dni del estudiante" autofocus> 
+        <br> <br>
+        <label for="Direccion">Direccion:</label>
+        <input  id="Direccion" type="text" size="30" required placeholder="Direccion del estudiante">
+        <br><br>
+        <label for="Nombre">Nombres:</label>
+        <input id="Nombre" type="text" size="30" placeholder="Modelo del Auto" required>
+        <br><br>
+        <label for="Apellidos">Apellidos:</label>
+        <input id="Apellidos" type="text" size="30" placeholder="Precio del Auto" required>
+        <br><br>
+        <label for="">Especialidad:</label>
+        <select name="" id="">
+            <option value="">Computaciòn&Informatica</option>
+            <option value="">Farmacia</option>
+            <option value="">Enfermeria</option>
+            <option value="">Produccion Agropecuaria</option>
+            <option value="">Mecanica</option>
+        </select>
+        <br> <br>
+        <input id="registrar" type="submit" value="Registrar">
+        <input id="reset" type="reset" value="Limpiar">
+        <br> <br>
+       
+    </form>
+</body>
+</html>

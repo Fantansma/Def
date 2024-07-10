@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos de Computo</title>
+    <link rel="icon" href="Imagenes/money-7881948_1280.jpg">
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 15px;
+}
+body{
+  background: url(Imagenes/money-7881948_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:firebrick;
+}
+
+img{
+    width: 5%;
+    position:absolute;
+    top: 10px;
+    right: 520px;
+}
+
+form{
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+input{
+    margin: 30px;
+}
+
+label{
+    color:mediumblue;
+    font-size: 20px;
+    font-family:monospace;
+}
+h3{
+    font-size: 30px;
+    color:darkred;
+}
+</style>
+<body>
+    <header>
+        <h1>Registro de venta de equipos de computo</h1>
+        
+    </header>
+     
+    <form action="#" >
+        <h3>Datos del Cliente</h3>
+        <label for="Cliente">Cliente:</label>
+        <input id="Cliente" type="text" size="40" required placeholder="Nombre del Cliente" autofocus>
+        <br> <br>
+        <label for="">Tipo de Equipos:</label>
+        <select name="Equipos" id="Computo">
+            <option value="">Laptop</option>
+            <option value="">Modems</option>
+            <option value="">Router</option>
+            <option value="">Monitor</option>
+            <option value="">Cpu</option>
+        </select>
+        <br> <br>
+        <label for="Precio">Precio:</label>
+        <input  id="Precio" type="text" size="30" required placeholder="Precio del Artefacto">
+        <br><br>
+        <label for="modelo">Modelo:</label>
+        <input id="modelo" type="text" size="30" placeholder="Modelo del Auto" required>
+        <br><br>
+        <input id="registrar" type="submit" value="Registrar">
+        <input id="reset" type="reset" value="Limpiar">
+    </form>
+   
+</body>
+</html>
